@@ -1,10 +1,6 @@
 import React from "react";
 import "./Services.css";
-// import serviceImage1 from "../../../src/Assest/serviceImage1.jpg"; // Replace with actual paths to your images
-// import serviceImage2 from "../../../src/Assest/serviceImage2.jpg";
-// import serviceImage3 from "../../../src/Assest/serviceImage3.jpg";
-import AboutImg from '../../Assest/about.png'
-import { BsWhatsapp } from "react-icons/bs";
+
 
 const Services = () => {
   return (
