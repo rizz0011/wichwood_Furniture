@@ -1,0 +1,94 @@
+.about-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background: #fff; */
+    background: #dcd3d7d9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-us-content h1 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-us-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-us-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .styled-paragraph {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 0.00938em;
+    color: #333; /* Text color */
+    margin: 20px 0; /* Margin around the paragraph */
+    padding: 10px 20px; /* Padding inside the paragraph */
+    background-color: #f9f9f9; /* Background color */
+    border-left: 4px solid #a25967; /* Left border for emphasis */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .about-us-content h1 {
+      font-size: 2rem;
+    }
+  
+    .about-us-content p {
+      font-size: 0.9rem;
+    }
+
+    .styled-paragraph {
+        font-size: 0.9rem; /* Slightly smaller font size for smaller screens */
+        padding: 10px; /* Adjusted padding */
+      }
+  }
+  
+  @media (max-width: 415px) {
+    .about-us-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .about-us-content p {
+      font-size: 0.8rem;
+    }
+    .styled-paragraph {
+        font-size: 0.8rem; /* Even smaller font size for very small screens */
+        padding: 8px; /* Further adjusted padding */
+      }
+  }
+  

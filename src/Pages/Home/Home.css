@@ -1,0 +1,125 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background: #dd9cbc8a; */
+  background: #dcd3d7d9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 98vh;
+}
+
+.home-text {
+  display: grid;
+  align-content: center;
+}
+
+.brand_name {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.brand_name span {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+  text-align: center;
+  color: #333333;
+  margin-top: 60px;
+}
+
+.homeService {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.homeService span {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  text-align: center;
+  color: #333333;
+}
+
+.homeAbout {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.homeAbout span {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+  text-align: center;
+  color: #642525;
+  text-align: justify;
+  padding: 9px;
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 0;
+  }
+
+  .brand_name span {
+    font-size: 2rem;
+  }
+
+  .homeService span {
+    font-size: 1.2rem;
+  }
+
+  .homeAbout span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .brand_name span {
+    font-size: 1.7rem;
+  }
+  .home-text {
+    padding: 0px 15px;
+  }
+
+  .homeService span {
+    font-size: 1rem;
+  }
+
+  .homeAbout span {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  .home-image-container {
+    padding-bottom: 200px;
+  }
+}
